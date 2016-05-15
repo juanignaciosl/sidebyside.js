@@ -1,18 +1,11 @@
 package com.juanignaciosl.sidebyside
 
-import scala.scalajs.js.Any
 import scala.scalajs.js.JSApp
 import scala.scalajs.js.annotation.JSExport
-import org.scalajs.jquery.JQuery
-import org.scalajs.jquery.JQueryEventObject
-import org.scalajs.dom.raw.KeyboardEvent
-import scala.scalajs.js
-import org.scalajs.dom
 import org.scalajs.dom.document
-import org.scalajs.dom.raw.Element
 import org.scalajs.dom.raw.Node
-import org.scalajs.dom.raw.Event
 import org.scalajs.jquery.jQuery
+import org.scalajs.jquery.JQuery
 
 object SideBySide extends JSApp with CaretLocator{
   def main(): Unit = {
